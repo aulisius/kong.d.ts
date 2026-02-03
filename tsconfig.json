@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node10",
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "dist"
+  },
+  "tstl": {
+    "luaLibImport": "inline",
+    "luaTarget": "5.1"
+  },
+  "include": ["types/kong-28.d.ts", "index.ts"]
+}

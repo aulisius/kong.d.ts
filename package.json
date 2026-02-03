@@ -1,0 +1,22 @@
+{
+  "name": "@faizaanceg/kong.d.ts",
+  "version": "1.0.0",
+  "description": "TSTL support for Kong/OpenResty",
+  "engines": {
+    "node": ">=16.15.1",
+    "npm": ">=8.11.0"
+  },
+  "scripts": {
+    "build": "tstl -p ./tsconfig.json",
+    "dev": "tstl -p ./tsconfig.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aulisius/kong.d.ts"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "5.5.2",
+    "typescript-to-lua": "1.26.2"
+  }
+}
